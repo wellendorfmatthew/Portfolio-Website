@@ -1,4 +1,37 @@
-.navigation {
-    font-family: Arial;
-    font-weight: bold;
+.top-section {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+}
+
+.navigation-bar {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Heebo;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#full-name {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: 1000px;
+}
+
+.nav {
+    margin-right: 50px;
+}
+
+.bottom-section {
+    text-align: center;
+    padding-top: 170px;
+    background-color: aliceblue;
 }
