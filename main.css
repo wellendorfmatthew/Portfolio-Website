@@ -1,8 +1,8 @@
 .top-section {
     width: 100%;
-    height: 150px;
-    position: fixed;
     background-color: white;
+    top: 0;
+    position: fixed;
 }
 
 .navigation-bar {
@@ -34,45 +34,96 @@ a {
 .bottom-section {
     text-align: center;
     padding-top: 170px;
-    background-color: aliceblue;
+    background-color: rgb(240, 242, 243);
+}
+
+.home {
+    text-align: center;
+}
+
+#name {
+    font-size: 40px;
+    padding-top: 200px;
+}
+
+#paragraph-home {
+    text-align: center;
+    font-size: 25px;
+    width: 500px;
+    display: inline-block;
+}
+
+#about {
+    padding-top: 200px;
 }
 
 .about-description {
     text-align: left;
+    display: inline-block;
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
 }
 
 #about-me {
     margin-left: 400px;
+    margin-top: 0;
 }
 
 .about-me-description {
     width: 500px;
     margin-left: 280px;
+    display: inline-block
+}
+
+.paragraph-about {
+    font-size: 20px;
 }
 
 .skills-section {
     text-align: center;
+    display: inline-block;
 }
 
 #skills {
-    margin-right: 40px;
+    margin-right: 80px;
     margin-top: 0;
 }
 
 .certain-skills-section {
     width: 500px;
     height: 250px;
-    margin-left: 1100px;
+    margin-left: 190px;
 }
 
 .certain-skill {
     display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 8px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
     background-color: rgb(221, 217, 217);
+}
+
+#projects {
+    padding-top: 200px;
+}
+
+.paragraph-projects {
+    font-size: 20px;
+    width: 400px;
+    display: inline-block;
+}
+
+.paragraph-contact {
+    font-size: 20px;
+    width: 400px;
+    display: inline-block;
 }
